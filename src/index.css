@@ -16,3 +16,23 @@ nav, header {
   max-width: 1440px !important;
   width: 100% !important;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(175, 175, 175, 1);
+  cursor: pointer;
+}
+
+
+
+
+
+

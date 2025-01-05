@@ -42,7 +42,7 @@ const SearchFunction = () => {
           value={query.category}
           onChange={handleInputChange}
           placeholder="restaurant, hotel, service...."
-          className="w-full rounded-s-full p-2 focus:outline-none border-r-1 h-9 "
+          className="w-full rounded-s-full p-2 focus:outline-none border-r-1 h-9 font-roboto"
         />
         <input
           type="text"
@@ -50,7 +50,7 @@ const SearchFunction = () => {
           value={query.location}
           onChange={handleInputChange}
           placeholder="Singapour..."
-          className="w-full p-2 h-9 focus:outline-none "
+          className="w-full p-2 h-9 focus:outline-none font-roboto"
         />
       </div>
       <button className="p-1 bg-bgP text-white rounded-full" onClick={handleSearch}>

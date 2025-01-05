@@ -1,5 +1,6 @@
 import React from "react"
 import { NavbarOne } from "./components/myNavbar/NavbarOne";
+import NavbarTwo from "./components/myNavbar/NavbarTwo";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <NavbarOne/>
+        <NavbarTwo/>
       </div>
     </>
   )
