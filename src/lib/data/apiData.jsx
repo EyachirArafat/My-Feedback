@@ -424,6 +424,13 @@ export const ReActivityData = [
   ],
 ]
 
-
-
-
+export const FooterData = [
+  {
+    header: "About",
+    link: ["About MyFeedback", "Investor Relations"],
+  },
+  {
+    header: "MyFeedback",
+    link: ["MyFeedback for business", "Collections", "Talk", "Events", "MyFeedback blog", "Support", "Developers" ],
+  },
+]

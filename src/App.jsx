@@ -5,6 +5,7 @@ import HeroSection from "./components/Home/HeroSection";
 import LatestTrends from "./components/Home/LatestTrends";
 import ExploreBusiness from "./components/Home/ExploreBusiness";
 import RecentActivity from "./components/Home/RecentActivity";
+import FooterSection from "./components/myFooter/FooterSection";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <LatestTrends/>
         <ExploreBusiness/>
         <RecentActivity/>
+        <FooterSection/>
       </div>
     </>
   )
