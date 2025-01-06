@@ -10,7 +10,7 @@ export const Ratings =({currentRating, reviews}) => {
           <FaStar
             key={index}
             size={30}
-            className={`w-[22px] h-[22px] p-[3px] rounded-sm cursor-pointer text-white ${index < currentRating ? "bg-star" : "bg-aStar"}`}
+            className={`sm:w-5 w-4 h-4 sm:h-5 p-[3px] rounded-sm cursor-pointer text-white ${index < currentRating ? "bg-star" : "bg-aStar"}`}
           />
         ))}
       </div>

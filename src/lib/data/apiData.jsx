@@ -182,3 +182,152 @@ export const HomeHeroData = [
   ],
 ];
 
+export const LatestTrendsData = [
+  {
+    id: "lt1",
+    images: [
+      "/image-1.png",
+      "/image-2.png",
+      "/image-3.png",
+      "/image-4.png",
+    ],
+    title: "Bella Italia",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(34 reviews)",
+  },
+  {
+    id: "lt2",
+    images: [
+      "/image-2.png",
+      "/image-1.png",
+      "/image-3.png",
+      "/image-4.png",
+    ],
+    title: "Little Shucker",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(253 reviews)",
+  },
+  {
+    id: "lt3",
+    images: [
+      "/image-3.png",
+      "/image-1.png",
+      "/image-2.png",
+      "/image-4.png",
+    ],
+    title: "Marafuku Ramen",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(87 reviews)",
+  },
+  {
+    id: "lt4",
+    images: [
+      "/image-4.png",
+      "/image-2.png",
+      "/image-3.png",
+      "/image-1.png",
+    ],
+    title: "Bottega",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(876 reviews)",
+  },
+  {
+    id: "lt5",
+    images: [
+      "/image-5.png",
+      "/image-6.png",
+      "/image-7.png",
+      "/image-8.png",
+    ],
+    title: "Arabia Nights",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(334 reviews)",
+  },
+  {
+    id: "lt6",
+    images: [
+      "/image-6.png",
+      "/image-7.png",
+      "/image-3.png",
+      "/image-8.png",
+    ],
+    title: "Lokma",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(253 reviews)",
+  },
+  {
+    id: "lt7",
+    images: [
+      "/image-7.png",
+      "/image-5.png",
+      "/image-8.png",
+      "/image-4.png",
+    ],
+    title: "The snug",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(87 reviews)",
+  },
+  {
+    id: "lt8",
+    images: [
+      "/image-8.png",
+      "/image-7.png",
+      "/image-5.png",
+      "/image-6.png",
+    ],
+    title: "Starbelly",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(876 reviews)",
+  },
+  {
+    id: "lt9",
+    images: [
+      "/image-9.png",
+      "/image-10.png",
+      "/image-11.png",
+      "/image-12.png",
+    ],
+    title: "Iori",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(334 reviews)",
+  },
+  {
+    id: "lt10",
+    images: [
+      "/image-10.png",
+      "/image-11.png",
+      "/image-9.png",
+      "/image-12.png",
+    ],
+    title: "Ngalley",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(334 reviews)",
+  },
+  {
+    id: "lt11",
+    images: [
+      "/image-11.png",
+      "/image-9.png",
+      "/image-12.png",
+      "/image-10.png",
+    ],
+    title: "diogonal",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(334 reviews)",
+  },
+  {
+    id: "lt12",
+    images: [
+      "/image-12.png",
+      "/image-10.png",
+      "/image-9.png",
+      "/image-11.png",
+    ],
+    title: "Kitoko",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    reviews: "(334 reviews)",
+  },
+]
+
+
+
