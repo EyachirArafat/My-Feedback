@@ -19,8 +19,8 @@ import SearchFunction from "./SearchFunction";
 
 export const NavbarOne = () => {
   return (
-    <Container className="sm:pt-[33px] pt-4 ">
-      <Navbar isBordered>
+    <Navbar isBordered className="mx-auto w-full sm:pt-[33px] pt-4 max-w-none">
+        <Container className="flex justify-center items-center">
         <NavbarContent className="max-w-none" justify="start">
           <NavbarBrand className="mr-4">
             <img
@@ -31,9 +31,9 @@ export const NavbarOne = () => {
           </NavbarBrand>
         </NavbarContent>
 
-        <div>
+        <NavbarContent as="div">
           <SearchFunction/>
-        </div>
+        </NavbarContent>
 
         <NavbarContent as="div" className="items-center" justify="end">
           <Dropdown placement="bottom-end">
@@ -64,11 +64,11 @@ export const NavbarOne = () => {
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <Button className="text-nowrap rounded-full bg-black text-white md:inline-block hidden">
+          <Button className="text-nowrap rounded-full bg-black text-white sm:inline-block hidden">
             MyFeedback for business
           </Button>
         </NavbarContent>
-      </Navbar>
     </Container>
+      </Navbar>
   );
 };

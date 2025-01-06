@@ -12,15 +12,19 @@ export default {
       colors: {
         bgP: "#1677BD",
         bgS: "#F8F8F8",
-        bgA: "#",
         txtP: "#232323",
         txtS: "#8F8F8F",
         txtA: "#AFAFAF ",
-        Star: "#E8A641",
+        star: "#E8A641",
+        aStar: "#9F9F9F",
       },
       fontFamily:{
         lexend: ['Lexend', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+      },
+      screens: {
+        sm2: "700px",
+        sm3: "260px",
       },
     },
   },

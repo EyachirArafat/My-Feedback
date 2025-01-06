@@ -70,3 +70,115 @@ export const NavTwoItem = [
     name: "Gyms",
   },
 ]
+
+export const HomeHeroData = [
+  [
+    {
+      id: "Bottega1",
+      images: [
+        "/hero-1.png",
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+      ],
+      title: "Bottega 1",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega2",
+      images: [
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+        "/hero-1.png",
+      ],
+      title: "Bottega 2",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega3",
+      images: [
+        "/hero-3.png",
+        "/hero-4.png",
+        "/hero-1.png",
+        "/hero-2.png",
+      ],
+      title: "Bottega 3",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega4",
+      images: [
+        "/hero-4.png",
+        "/hero-1.png",
+        "/hero-2.png",
+        "/hero-3.png",
+      ],
+      title: "Bottega 4",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+  ],
+  [
+    {
+      id: "Bottega5",
+      images: [
+        "/hero-1.png",
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+      ],
+      title: "Bottega 5",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega6",
+      images: [
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+        "/hero-1.png",
+      ],
+      title: "Bottega 6",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega7",
+      images: [
+        "/hero-1.png",
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+      ],
+      title: "Bottega 7",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },
+    {
+      id: "Bottega8",
+      images: [
+        "/hero-2.png",
+        "/hero-3.png",
+        "/hero-4.png",
+        "/hero-1.png",
+      ],
+      title: "Bottega 8",
+      des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      ratings: "",
+      reviews: "(876 reviews)",
+    },    
+  ],
+];
+

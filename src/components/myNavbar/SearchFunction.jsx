@@ -34,7 +34,7 @@ const SearchFunction = () => {
   };
   return (
     <div>
-    <div className="sm:flex hidden justify-center items-center border rounded-full gap-1 px-0.5">
+    <div className="sm2:flex hidden justify-center items-center border rounded-full gap-1 px-0.5">
       <div className="flex">
         <input
           type="text"
