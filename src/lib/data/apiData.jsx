@@ -6,6 +6,7 @@ import { LiaShoppingBagSolid } from "react-icons/lia";
 import { FaWandSparkles } from "react-icons/fa6";
 import { PiParkDuotone } from "react-icons/pi";
 import { CgGym } from "react-icons/cg";
+import { AiOutlineUser } from "react-icons/ai";
 
 
 export const NavTwoItem = [
@@ -340,6 +341,89 @@ export const LatestTrendsData = [
     reviews: "(334 reviews)",
   },
 ]
+
+export const ReActivityData = [
+  [
+    {
+      id: 1,
+      userIcon: <AiOutlineUser size={22}/>,
+      userName: "Leslie sakho",
+      location: "Canada, toronto",
+      rating: "5",
+      date: "09/11/2023",
+      des1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      des2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      images: [
+        "/sub-image-1.png",
+        "/sub-image-2.png",
+        "/sub-image-3.png",
+      ],
+    },
+    {
+      id: 2,
+      userIcon: <AiOutlineUser size={22}/>,
+      userName: "Chris macari",
+      location: "Singapour",
+      rating: "5",
+      date: "14/09/2023",
+      des1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      des2: "The lorem ipsum is, in printing.",
+      images: [
+        "/sub-image-4.png",
+        "/sub-image-5.png",
+        "/sub-image-6.png",
+      ],
+    },
+    {
+      id: 3,
+      userIcon: <AiOutlineUser size={22}/>,
+      userName: "Jojo alba",
+      location: "Kuala lumpur",
+      rating: "5",
+      date: "28/09/2023",
+      des1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      des2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      images: [
+        "/sub-image-7.png",
+        "/sub-image-8.png",
+        "/sub-image-9.png",
+      ],
+    },
+  ],
+  [
+    {
+      id: 4,
+      userIcon: <AiOutlineUser size={22}/>,
+      userName: "Antonio",
+      location: "Japan",
+      rating: "5",
+      date: "10/11/2023",
+      des1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      des2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      images: [
+        "/sub-image-4.png",
+        "/sub-image-3.png",
+        "/sub-image-2.png",
+      ],
+    },
+    {
+      id: 5,
+      userIcon: <AiOutlineUser size={22}/>,
+      userName: "Christ Row",
+      location: "Singapour",
+      rating: "5",
+      date: "14/02/2023",
+      des1: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      des2: "The lorem ipsum is, in printing.",
+      images: [
+        "/sub-image-1.png",
+        "/sub-image-6.png",
+        "/sub-image-5.png",
+      ],
+    },
+  ],
+]
+
 
 
 
