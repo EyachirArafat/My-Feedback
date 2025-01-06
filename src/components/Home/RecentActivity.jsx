@@ -23,7 +23,7 @@ const RecentActivity = () => {
   return (
     <Container className="lg:px-[52px] md:px-8 sm:px-4 md:mb-24 mb-10">
       <div>
-        <ComponentTitle children="Recents avtivities" />
+        <ComponentTitle children="Recents activities" />
         <div className="relative">
           {/* Navigation Arrows */}
           <button
