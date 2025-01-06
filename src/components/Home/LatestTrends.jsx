@@ -4,10 +4,12 @@ import { LatestTrendsData } from '../../lib/data/apiData'
 import MyCarousel from '../common/MyCarousel'
 import { Ratings } from './Ratings'
 import { Button } from '@nextui-org/react'
+import ComponentTitle from '../common/ComponentTitle'
 
 const LatestTrends = () => {
   return (
     <Container className='lg:px-[52px] md:px-8 sm:px-4 md:mb-24 mb-10'>
+      <ComponentTitle children="The latest trends"/>
      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-[33px] gap-5">
         {LatestTrendsData.map((item) => (
           <div key={item.id} className=" mx-auto bg-bgS rounded-xl">
@@ -21,7 +23,7 @@ const LatestTrends = () => {
               </p>
               <div className="pt-[27px]">
                 <Ratings
-                  currentRating='5'
+                  currentRating={item.ratting}
                   reviews={item.reviews}
                 />
               </div>

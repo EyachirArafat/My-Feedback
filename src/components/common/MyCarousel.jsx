@@ -39,7 +39,7 @@ const MyCarousel = ({images,  interval = 3000, children }) => {
               key={index}
               src={image}
               alt={`Slide ${index}`}
-              className="w-full flex-shrink-0 object-cover"
+              className="w-full overflow-hidden flex-shrink-0 object-cover"
             />
           ))}
         </div>
