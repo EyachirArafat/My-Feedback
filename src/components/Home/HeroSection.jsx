@@ -21,8 +21,8 @@ const HeroSection = () => {
   };
 
   return (
-    <Container className="bg-bgP px-1 rounded-lg max-w-[1330px] md:mb-24 mb-10">
-      <div className="sm:px-[23px] sm:py-5 py-4 rounded-lg text-white">
+    <Container className="bg-bgP  rounded-lg max-w-[1280px] md:mb-24 mb-10 md:px-5 md:mt-14 sm:mt-8 mt-3">
+      <div className="sm:px-[23px]  sm:py-5 py-4 rounded-lg text-white">
         <h1 className="text-xl sm:text-2xl md:text-[32px] font-lexend mb-4">
           Find the best restaurant ratings below
         </h1>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                     {group.map((item) => (
                       <div key={item.id} className=" mx-auto bg-bgS rounded-xl">
                         <MyCarousel images={item.images} />
-                        <div className="pt-[13px] pl-[14px] overflow-hidden pb-5 ">
+                        <div className="pt-[13px] sm:pl-[14px] px-2 overflow-hidden pb-5 ">
                           <h2 className="text-lg sm:text-xl font-semibold font-roboto text-txtP">
                             {item.title}
                           </h2>

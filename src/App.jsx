@@ -1,25 +1,16 @@
 import React from "react"
 import { NavbarOne } from "./components/myNavbar/NavbarOne";
-import NavbarTwo from "./components/myNavbar/NavbarTwo";
-import HeroSection from "./components/Home/HeroSection";
-import LatestTrends from "./components/Home/LatestTrends";
-import ExploreBusiness from "./components/Home/ExploreBusiness";
-import RecentActivity from "./components/Home/RecentActivity";
 import FooterSection from "./components/myFooter/FooterSection";
+import { Outlet } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      <div>
-        <NavbarOne/>
-        <NavbarTwo/>
-        <HeroSection/>
-        <LatestTrends/>
-        <ExploreBusiness/>
-        <RecentActivity/>
-        <FooterSection/>
-      </div>
+    <header className="mx-auto">
+      <NavbarOne/>
+    </header>
+    <main><Outlet/></main>
+    <footer><FooterSection/></footer>
     </>
   )
 }
