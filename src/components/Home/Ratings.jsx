@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { cnn } from "../../lib/utils/cnn";
 
-export const Ratings =({currentRating, reviews, rattingBoxClass}) => {
+export const Ratings =({currentRating, reviews, rattingBoxClass, cRClass, rClass}) => {
   
   return (
     <div className="flex items-center overflow-hidden gap-2 max-w-[232px]">
@@ -16,8 +16,8 @@ export const Ratings =({currentRating, reviews, rattingBoxClass}) => {
         ))}
       </div>
       <div className={cnn("flex gap-1 items-center",rattingBoxClass)}>
-        <div className="font-lexend text-txtP font-bold">{currentRating}</div>
-        <div className="font-lexend text-txtS text-nowrap">{reviews}</div>
+        <div className={cnn("font-lexend text-txtP font-bold",cRClass)}>{currentRating}</div>
+        <div className={cnn("font-lexend text-txtS text-nowrap",rClass)}>{reviews}</div>
       </div>
     </div>
   );

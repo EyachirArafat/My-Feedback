@@ -6,12 +6,14 @@ import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Index from './components/Index.jsx'
 import AllRestaurants from './components/AllItem/AllRestaurants.jsx'
+import BellaItalia from './components/Restaurants/BellaItalia/BellaItalia.jsx'
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route index element={<Index/>}/>
+      <Route path='bella-italia' element={<BellaItalia/>}/>
       <Route path='/restaurants' element={<AllRestaurants/>}/>
 
       <Route path='*' element={<div className='text-center flex flex-col text-5xl py-40 '>

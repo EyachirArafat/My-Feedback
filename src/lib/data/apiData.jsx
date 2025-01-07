@@ -427,7 +427,7 @@ export const ReActivityData = [
 export const FooterData = [
   {
     header: "About",
-    link: ["About MyFeedback", "Investor Relations"],
+    link: ["About MyFeedback", "Investor Relations", "Trust & Safety", "Content Guidelines", "Terms of Service", "Privacy Policy", "Your Privacy Choices"],
   },
   {
     header: "MyFeedback",
@@ -445,7 +445,7 @@ export const RestaurantsData = [
     ],
     name: "The snug",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    rating: "4.5",
+    rating: "4",
     reviews: "(654 reviews)",
   },
   {
@@ -493,7 +493,7 @@ export const RestaurantsData = [
     ],
     name: "Starbelly",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    rating: "4.5",
+    rating: "2",
     reviews: "(654 reviews)",
   },
   {
@@ -505,7 +505,7 @@ export const RestaurantsData = [
     ],
     name: "The melt",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    rating: "4.5",
+    rating: "4.2",
     reviews: "(654 reviews)",
   },
   {
@@ -517,7 +517,7 @@ export const RestaurantsData = [
     ],
     name: "Arabia Nights",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    rating: "4.5",
+    rating: "5",
     reviews: "(654 reviews)",
   },
 ]
