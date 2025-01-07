@@ -16,6 +16,7 @@ import {
 import { CiGlobe } from "react-icons/ci";
 import Container from "../common/Container";
 import SearchFunction from "./SearchFunction";
+import { NavLink } from "react-router-dom";
 
 export const NavbarOne = () => {
   return (
@@ -23,11 +24,13 @@ export const NavbarOne = () => {
         <Container className="flex justify-center items-center">
         <NavbarContent className="max-w-none" justify="start">
           <NavbarBrand className="mr-4">
+            <NavLink to="/">
             <img
               className="md:min-w-[166px] min-w-[100px]"
               src="./logo.svg"
               alt="myFeedbackLogo"
             />
+            </NavLink>
           </NavbarBrand>
         </NavbarContent>
 

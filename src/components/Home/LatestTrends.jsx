@@ -23,7 +23,7 @@ const LatestTrends = () => {
               </p>
               <div className="pt-[27px]">
                 <Ratings
-                  currentRating={item.ratting}
+                  currentRating={item.rating}
                   reviews={item.reviews}
                 />
               </div>

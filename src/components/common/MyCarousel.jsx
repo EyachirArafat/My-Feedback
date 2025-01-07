@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { cnn } from "../../lib/utils/cnn";
 
-const MyCarousel = ({images,  interval = 3000, children }) => {
+const MyCarousel = ({images,  interval = 3000, children, imgClass }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -25,9 +26,9 @@ const MyCarousel = ({images,  interval = 3000, children }) => {
 
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto">
+    <div className="relative">
       {/* Carousel Content */}
-      <div className="overflow-hidden relative">
+      <div className={cnn("overflow-hidden relative ", imgClass)}>
       <div
           className="flex transition-transform duration-500"
           style={{

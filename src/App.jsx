@@ -5,13 +5,13 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <>
-    <header className="mx-auto">
-      <NavbarOne/>
-    </header>
-    <main><Outlet/></main>
-    <footer><FooterSection/></footer>
-    </>
+    <div className="font-roboto">
+      <header className="mx-auto">
+        <NavbarOne/>
+      </header>
+      <main><Outlet/></main>
+      <footer><FooterSection/></footer>
+    </div>
   )
 }
 

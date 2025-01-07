@@ -194,7 +194,7 @@ export const LatestTrendsData = [
     ],
     title: "Bella Italia",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '4.8',
+    rating: '4.8',
     reviews: "(34 reviews)",
   },
   {
@@ -207,7 +207,7 @@ export const LatestTrendsData = [
     ],
     title: "Little Shucker",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(253 reviews)",
   },
   {
@@ -220,7 +220,7 @@ export const LatestTrendsData = [
     ],
     title: "Marafuku Ramen",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '3.5',
+    rating: '3.5',
     reviews: "(87 reviews)",
   },
   {
@@ -233,7 +233,7 @@ export const LatestTrendsData = [
     ],
     title: "Bottega",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(876 reviews)",
   },
   {
@@ -246,7 +246,7 @@ export const LatestTrendsData = [
     ],
     title: "Arabia Nights",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '3.5',
+    rating: '3.5',
     reviews: "(334 reviews)",
   },
   {
@@ -259,7 +259,7 @@ export const LatestTrendsData = [
     ],
     title: "Lokma",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(253 reviews)",
   },
   {
@@ -272,7 +272,7 @@ export const LatestTrendsData = [
     ],
     title: "The snug",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '4.5',
+    rating: '4.5',
     reviews: "(87 reviews)",
   },
   {
@@ -285,7 +285,7 @@ export const LatestTrendsData = [
     ],
     title: "Starbelly",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(876 reviews)",
   },
   {
@@ -298,7 +298,7 @@ export const LatestTrendsData = [
     ],
     title: "Iori",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '3.5',
+    rating: '3.5',
     reviews: "(334 reviews)",
   },
   {
@@ -311,7 +311,7 @@ export const LatestTrendsData = [
     ],
     title: "Ngalley",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(334 reviews)",
   },
   {
@@ -324,7 +324,7 @@ export const LatestTrendsData = [
     ],
     title: "diogonal",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '4.5',
+    rating: '4.5',
     reviews: "(334 reviews)",
   },
   {
@@ -337,7 +337,7 @@ export const LatestTrendsData = [
     ],
     title: "Kitoko",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    ratting: '5',
+    rating: '5',
     reviews: "(334 reviews)",
   },
 ]
@@ -434,3 +434,98 @@ export const FooterData = [
     link: ["MyFeedback for business", "Collections", "Talk", "Events", "MyFeedback blog", "Support", "Developers" ],
   },
 ]
+
+export const RestaurantsData = [
+  {
+    id: 1,
+    images: [
+      "/br-img-1.png",
+      "/br-img-2.png",
+      "/br-img-3.png",
+    ],
+    name: "The snug",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    reviews: "(654 reviews)",
+  },
+  {
+    id: 2,
+    images: [
+      "/br-img-2.png",
+      "/br-img-3.png",
+      "/br-img-4.png",
+    ],
+    name: "Bottega",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "5",
+    reviews: "(1654 reviews)",
+  },
+  {
+    id: 3,
+    images: [
+      "/br-img-3.png",
+      "/br-img-4.png",
+      "/br-img-5.png",
+    ],
+    name: "Little Shucker",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "3",
+    reviews: "(553 reviews)",
+  },
+  {
+    id: 4,
+    images: [
+      "/br-img-4.png",
+      "/br-img-6.png",
+      "/br-img-7.png",
+    ],
+    name: "Lokma",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    reviews: "(654 reviews)",
+  },
+  {
+    id: 5,
+    images: [
+      "/br-img-5.png",
+      "/br-img-1.png",
+      "/br-img-2.png",
+    ],
+    name: "Starbelly",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    reviews: "(654 reviews)",
+  },
+  {
+    id: 6,
+    images: [
+      "/br-img-6.png",
+      "/br-img-7.png",
+      "/br-img-1.png",
+    ],
+    name: "The melt",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    reviews: "(654 reviews)",
+  },
+  {
+    id: 7,
+    images: [
+      "/br-img-7.png",
+      "/br-img-5.png",
+      "/br-img-6.png",
+    ],
+    name: "Arabia Nights",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: "4.5",
+    reviews: "(654 reviews)",
+  },
+]
+
+
+
+
+
+
+
+
