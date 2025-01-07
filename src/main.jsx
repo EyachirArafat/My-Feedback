@@ -4,7 +4,8 @@ import {NextUIProvider} from '@nextui-org/react'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Index from './components/Home/Index.jsx'
+import Index from './components/Index.jsx'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
