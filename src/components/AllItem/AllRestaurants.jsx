@@ -142,8 +142,8 @@ const AllRestaurants = () => {
               </Button>
             </div>
           </div>
-          <div>
-            <img src="/map-1.png" alt="map" />
+          <div className="mb-4">
+            <img className="rounded-2xl" src="/map-1.png" alt="map" />
           </div>
         </div>
       </Container>

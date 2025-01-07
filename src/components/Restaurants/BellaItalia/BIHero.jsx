@@ -3,7 +3,6 @@ import Container from '../../common/Container'
 import { Ratings } from '../../Home/Ratings'
 import { FaLocationDot } from 'react-icons/fa6'
 import { IoTime } from 'react-icons/io5'
-import ComponentTitle from '../../common/ComponentTitle'
 
 const BIHero = () => {
   return (
@@ -15,7 +14,7 @@ const BIHero = () => {
       </p>
 
       {/* hero area */}
-        <div className="bg-[url('/Bella-italia-hero.png')] bg-cover bg-no-repeat relative sm:mb-[148px] mb-28">
+        <div className="bg-[url('/Bella-italia-hero.png')] bg-cover bg-no-repeat relative sm:mb-[130px] mb-24">
           <div className='md:px-[96px] sm:px-14 sm3:px-4 px-1 pt-[67px] text-white bg-gradient-to-l to-black/50 from-white/0'>
             <div className='space-y-3'>
               <h1 className='font-lexend font-semibold md:text-[52px] sm:text-4xl sm3:text-3xl text-xl'>Bella Italia</h1>
@@ -41,7 +40,7 @@ const BIHero = () => {
               </div>
             </div>
           </div>
-          <img className='absolute left-1/2 -translate-x-1/2 right-0 -bottom-16' src="/Bella-italia-logo.svg" alt="" />
+          <img className='absolute left-1/2 -translate-x-1/2 right-0 -bottom-16 hover:scale-105 cursor-pointer transition-all duration-250 ' src="/Bella-italia-logo.svg" alt="" />
         </div>
       </Container>
     </div>

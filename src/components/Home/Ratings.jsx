@@ -5,7 +5,7 @@ import { cnn } from "../../lib/utils/cnn";
 export const Ratings =({currentRating, reviews, rattingBoxClass, cRClass, rClass}) => {
   
   return (
-    <div className="flex items-center overflow-hidden gap-2 max-w-[232px]">
+    <div className="flex sm3:flex-nowrap flex-wrap items-center overflow-hidden gap-2 max-w-[232px]">
       <div className="flex gap-1">
         {Array.from({ length: 5 }, (_, index) => (
           <FaStar

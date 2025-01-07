@@ -522,6 +522,47 @@ export const RestaurantsData = [
   },
 ]
 
+export const BellaItaliaData = [
+  {
+    id: "1",
+    images: [
+      "/image-9.png",
+      "/image-10.png",
+      "/image-11.png",
+      "/image-12.png",
+    ],
+    title: "The melt",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: '3.5',
+    reviews: "(334 reviews)",
+  },
+  {
+    id: "2",
+    images: [
+      "/image-6.png",
+      "/image-7.png",
+      "/image-3.png",
+      "/image-8.png",
+    ],
+    title: "Lokma",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: '5',
+    reviews: "(253 reviews)",
+  },
+  {
+    id: "3",
+    images: [
+      "/image-7.png",
+      "/image-5.png",
+      "/image-8.png",
+      "/image-4.png",
+    ],
+    title: "The snug",
+    des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    rating: '4.5',
+    reviews: "(87 reviews)",
+  },
+]
 
 
 
