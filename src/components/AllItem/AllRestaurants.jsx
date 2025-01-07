@@ -7,6 +7,7 @@ import { Ratings } from "../Home/Ratings";
 import { MdSort } from "react-icons/md";
 import SortComponent from "../common/SortComponent";
 import { Button } from "@nextui-org/react";
+import { NavLink } from "react-router-dom";
 
 const AllRestaurants = () => {
   const [sortedFeedbacks, setSortedFeedbacks] = useState(RestaurantsData);
@@ -67,20 +68,27 @@ const AllRestaurants = () => {
                     images={restaurant.images}
                     imgClass="max-h-[189px] max-w-[209px]"
                   />
-                  <div className="space-y-7">
-                    <div>
-                      <h3 className="font-semibold text-xl">
-                        {restaurant.name}
-                      </h3>
-                      <p className=" md:w-[280px] sm3:w-full text-[16px] text-txtS">
-                        {restaurant.des}
-                      </p>
+                  <NavLink
+                  to={`/${restaurant.name
+                    ?.toLowerCase()
+                    .replace(/[^a-z0-9\s]/g, "")
+                    .replace(/\s+/g, "-")}`}
+                  >
+                    <div className="space-y-7">
+                      <div>
+                        <h3 className="font-semibold text-xl">
+                          {restaurant.name}
+                        </h3>
+                        <p className=" md:w-[280px] sm3:w-full text-[16px] text-txtS">
+                          {restaurant.des}
+                        </p>
+                      </div>
+                      <Ratings
+                        currentRating={restaurant.rating}
+                        reviews={restaurant.reviews}
+                      />
                     </div>
-                    <Ratings
-                      currentRating={restaurant.rating}
-                      reviews={restaurant.reviews}
-                    />
-                  </div>
+                  </NavLink>
                 </div>
               ))}
             </div>

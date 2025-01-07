@@ -439,14 +439,14 @@ export const RestaurantsData = [
   {
     id: 1,
     images: [
-      "/br-img-1.png",
-      "/br-img-2.png",
-      "/br-img-3.png",
+      "/image-1.png",
+      "/image-2.png",
+      "/image-3.png",
     ],
-    name: "The snug",
+    name: "Bella Italia",
     des: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-    rating: "4",
-    reviews: "(654 reviews)",
+    rating: '4.8',
+    reviews: "(34 reviews)",
   },
   {
     id: 2,
