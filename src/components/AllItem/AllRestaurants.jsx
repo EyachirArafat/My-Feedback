@@ -4,52 +4,36 @@ import ComponentTitle from "../common/ComponentTitle";
 import { RestaurantsData } from "../../lib/data/apiData";
 import MyCarousel from "../common/MyCarousel";
 import { Ratings } from "../Home/Ratings";
-import {
-  Button,
-  Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownTrigger,
-} from "@nextui-org/react";
 import { MdSort } from "react-icons/md";
-import { IoClose } from "react-icons/io5";
+import SortComponent from "../common/SortComponent";
+import { Button } from "@nextui-org/react";
 
 const AllRestaurants = () => {
   const [sortedFeedbacks, setSortedFeedbacks] = useState(RestaurantsData);
-  const [sortOption, setSortOption] = useState("Sort");
-  const [isActive, setIsActive] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const handleSortActive = () => {
-    setIsActive((prev) => !prev);
-    setIsDropdownOpen(true)
-  };
-
-  const handleSort = (key) => {
-    let sortedData = [];
-    switch (key) {
-      case "highest-rated":
-        sortedData = [...RestaurantsData].sort((a, b) => b.rating - a.rating);
-        setSortOption("Highest Rated");
-        break;
-      case "oldest-rated":
-        sortedData = [...RestaurantsData].sort((a, b) => a.rating - b.rating);
-        setSortOption("Oldest-Rated");
-        break;
-      case "all-feedbacks":
-      default:
-        sortedData = RestaurantsData;
-        setSortOption("All Feedbacks");
-        break;
-    }
-    setSortedFeedbacks(sortedData);
-  };
-
-  const items = [
-    { key: "all-feedbacks", label: "All Feedbacks" },
-    { key: "highest-rated", label: "Highest Rated" },
-    { key: "oldest-rated", label: "Oldest Rated" },
+  
+  const sortOptions = [
+    {
+      key: "all-feedbacks", 
+      label: "All Feedbacks",
+      sortFunction: (data) => data.sort((a, b) => b.rating - a.rating),
+    },
+    {
+      key: "highest-rated",
+      label: "Highest Rated",
+      sortFunction: (data) => data.sort((a, b) => b.rating - a.rating),
+    },
+    {
+      key: "lowest-rated",
+      label: "Lowest Rated",
+      sortFunction: (data) => data.sort((a, b) => a.rating - b.rating),
+    },
+    {
+      key: "alphabetical",
+      label: "Alphabetical Order",
+      sortFunction: (data) => data.sort((a, b) => a.name.localeCompare(b.name)),
+    },
   ];
+  
 
   return (
     <div className="lg:pl-[100px] md:pl-10 sm:pl-6 pl-1">
@@ -64,51 +48,15 @@ const AllRestaurants = () => {
                 className="md:text-xl text-[18px] mb-0"
                 children="best restaurants in singapore"
               />
-              <div>
-                <Dropdown className="min-w-[150px]" isOpen={isDropdownOpen}>
-                  <DropdownTrigger>
-                    <Button
-                      onClick={handleSortActive}
-                      className={`border-2  rounded-full ${
-                        isActive
-                          ? "bg-[#5E5E5E] text-white"
-                          : "bg-white border-[#5E5E5E]"
-                      }`}
-                    >
-                      <MdSort />
-                      Sort
-                    </Button>
-                  </DropdownTrigger>
-                  <DropdownMenu
-                    className="relative"
-                    aria-label="Sort Feedbacks"
-                    items={items}
-                    onAction={(key) => handleSort(key)}
-                  >
-                    {items.map((item) => (
-                      <DropdownItem
-                        key={item.key}
-                        className={`${
-                          sortOption === item.label
-                            ? "font-bold text-blue-500"
-                            : ""
-                        }`}
-                      >
-                        {item.label}
-                      </DropdownItem>
-                    ))}
-
-                    {/* Cross Icon to reset */}
-                    <DropdownItem
-                      key="close"
-                      onPress={() => setIsDropdownOpen(false)}
-                    >
-                      <IoClose size={18} />
-                    </DropdownItem>
-                  </DropdownMenu>
-                </Dropdown>
-              </div>
+              <SortComponent
+                data={RestaurantsData}
+                options={sortOptions}
+                onSorted={(sortedData) => setSortedFeedbacks(sortedData)}
+                initialLabel="Sort"
+                itemIcon={<MdSort/>}
+              />
             </div>
+             
             <div className="flex flex-col">
               {sortedFeedbacks.map((restaurant, id) => (
                 <div
