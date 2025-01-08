@@ -65,7 +65,7 @@ const FooterSection = () => {
       </div>
       </Container>
         <div className='text-center font-semibold text-sm font-roboto pb-4 px-2'>
-          <p>Copyright &copy; {new Date().getFullYear()} myfeedback, designed by me</p>
+          <p>Copyright &copy; {new Date().getFullYear()} myfeedback, designed by <span className='text-xl text-indigo-500'>EK</span></p>
         </div>
     </div>
     
