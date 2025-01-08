@@ -115,26 +115,26 @@ const BIRatings = () => {
             key={id}
             className="flex flex-col p-5 rounded-lg gap-4 bg-bgS max-w-[1055px] "
           >
-            <div className="flex flex-wrap gap-2">
+            <div className="flex gap-2">
               <div className="bg-white p-4 rounded-full flex justify-center items-center">{item.user}</div>
-              <div>
+              <div >
                 <h3 className="font-semibold text-xl">{item.name}</h3>
                 <p className="text-txtS">{item.location}</p>
               </div>
             </div>
-            <div>
-              
-
+            <div className="sm:pl-16">
               <Ratings currentRating={item.rating} reviews={item.reviews} />
               <p className="max-w-[511px] w-full text-txtS pt-7">{item.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="my-4">
-        <Button className="rounded-full" color="primary">
-          Show more
-        </Button>
+      <div className="max-w-[1055px] ">
+        <div className="md:mt-[86px] flex justify-center sm:my-10 my-6 ">
+          <Button className="rounded-full" color="primary">
+          Show more reviews
+          </Button>
+        </div>
       </div>
     </Container>
   );

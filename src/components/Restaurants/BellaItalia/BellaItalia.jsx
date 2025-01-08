@@ -4,6 +4,7 @@ import BIGallery from './BIGallery'
 import BIInformation from './BIInformation'
 import BIOverallRating from './BIOverallRating'
 import BIRatings from './BIRatings'
+import AlsoDiscoverRestaurant from '../AlsoDiscoverRestaurant'
 
 
 
@@ -16,6 +17,7 @@ const BellaItalia = () => {
       <BIInformation/>
       <BIOverallRating/>
       <BIRatings/>
+      <AlsoDiscoverRestaurant/>
     </div>
   )
 }

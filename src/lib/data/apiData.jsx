@@ -544,7 +544,7 @@ export const BIRatingData = [
     reviews:"(reviews 89)",
     date: "04/06/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 3,
@@ -555,7 +555,7 @@ export const BIRatingData = [
     reviews: "(reviews250)",
     date: "31/03/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 4,
@@ -566,7 +566,7 @@ export const BIRatingData = [
     reviews: "(reviews102)",
     date: "30/04/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 5,
@@ -577,7 +577,7 @@ export const BIRatingData = [
     reviews:"(reviews 78)",
     date: "27/03/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 6,
@@ -588,7 +588,7 @@ export const BIRatingData = [
     reviews: "(reviews300)",
     date: "24/03/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 7,
@@ -599,7 +599,7 @@ export const BIRatingData = [
     reviews:"(reviews 65)",
     date: "11/03/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
   {
     id: 8,
@@ -610,11 +610,11 @@ export const BIRatingData = [
     reviews: "(reviews130)",
     date: "10/03/2023",
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
   },
 ];
 
-export const BellaItaliaData = [
+export const DiscoverRestaurantData = [
   {
     id: "1",
     images: [
