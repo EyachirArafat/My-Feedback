@@ -2,7 +2,7 @@
 
 Explore the latest features and designs of **My Feedback**:
 
-- [**Visit Live Preview** 🚀](https://myfeedback-puce.vercel.app/bella-italia)
+- [**Visit Live Preview** 🚀](https://myfeedback-puce.vercel.app/)
 
 ---
 ### 🔍 **Search Item**
