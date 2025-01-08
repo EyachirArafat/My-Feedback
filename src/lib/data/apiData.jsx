@@ -7,6 +7,7 @@ import { FaWandSparkles } from "react-icons/fa6";
 import { PiParkDuotone } from "react-icons/pi";
 import { CgGym } from "react-icons/cg";
 import { AiOutlineUser } from "react-icons/ai";
+import { LuUserRound } from "react-icons/lu";
 
 
 export const NavTwoItem = [
@@ -521,6 +522,97 @@ export const RestaurantsData = [
     reviews: "(654 reviews)",
   },
 ]
+
+export const BIRatingData = [
+  {
+    id: 1,
+    user: <LuUserRound size={24}/>,
+    name: "Mei Ling",
+    location: "Singapore, Orchard Boulevard",
+    rating: 4.5,
+    reviews: "(reviews120)",
+    date: "02/05/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 2,
+    user: <LuUserRound size={24}/>,
+    name: "Wei Xiong",
+    location: "Singapore, Tiong Bahru",
+    rating: 5.0,
+    reviews:"(reviews 89)",
+    date: "04/06/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 3,
+    user: <LuUserRound size={24}/>,
+    name: "Ming Wei",
+    location: "Singapore, India",
+    rating: 4.8,
+    reviews: "(reviews250)",
+    date: "31/03/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 4,
+    user: <LuUserRound size={24}/>,
+    name: "Xin Yi",
+    location: "Singapore, Zen Norms",
+    rating: 3,
+    reviews: "(reviews102)",
+    date: "30/04/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 5,
+    user: <LuUserRound size={24}/>,
+    name: "Zhi Hao",
+    location: "Singapore, Boon Keng",
+    rating: 3.7,
+    reviews:"(reviews 78)",
+    date: "27/03/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 6,
+    user: <LuUserRound size={24}/>,
+    name: "Li Hua",
+    location: "Singapore, DLM Mall",
+    rating: 4.7,
+    reviews: "(reviews300)",
+    date: "24/03/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 7,
+    user: <LuUserRound size={24}/>,
+    name: "Si Ying",
+    location: "Singapore, Bedok Mall",
+    rating: 3.9,
+    reviews:"(reviews 65)",
+    date: "11/03/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+  {
+    id: 8,
+    user: <LuUserRound size={24}/>,
+    name: "Wei Ting",
+    location: "Singapore, Pasir Ris",
+    rating: 4,
+    reviews: "(reviews130)",
+    date: "10/03/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
+];
 
 export const BellaItaliaData = [
   {

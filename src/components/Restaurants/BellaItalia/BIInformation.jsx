@@ -4,8 +4,7 @@ import ComponentTitle from '../../common/ComponentTitle'
 import { MdOutlineAccessTimeFilled, MdOutlinePhoneInTalk, MdOutlineRestaurant } from 'react-icons/md'
 import { FaFacebook, FaLocationDot, FaPager, FaTiktok } from 'react-icons/fa6'
 import { NavLink } from 'react-router-dom'
-import { RiInstagramFill } from 'react-icons/ri'
-import { IoLogoWhatsapp } from 'react-icons/io5'
+import { RiInstagramFill, RiWhatsappFill } from 'react-icons/ri'
 
 const BIInformation = () => {
   return (
@@ -42,7 +41,7 @@ const BIInformation = () => {
               <NavLink><FaFacebook size={28}/></NavLink>
               <NavLink><RiInstagramFill size={28}/></NavLink>
               <NavLink><FaTiktok size={28}/></NavLink>
-              <NavLink><IoLogoWhatsapp size={28}/></NavLink>
+              <NavLink><RiWhatsappFill size={28}/></NavLink>
             </div>
           </div>
         </div>
