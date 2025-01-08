@@ -26,6 +26,9 @@ export default {
         sm2: "700px",
         sm3: "260px",
       },
+      zIndex: {
+        z100: "100"
+      }
     },
   },
   plugins: [nextui()],

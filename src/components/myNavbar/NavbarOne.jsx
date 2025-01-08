@@ -35,7 +35,7 @@ export const NavbarOne = () => {
         </NavbarContent>
 
         <NavbarContent as="div">
-          <SearchFunction/>
+          <SearchFunction className="sm2:flex hidden justify-between items-center"/>
         </NavbarContent>
 
         <NavbarContent as="div" className="items-center" justify="end">
